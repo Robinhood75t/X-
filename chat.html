@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        twitter-clone
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .box-1,
+        .box-2 {
+            flex: 1;
+            height: 1000px;
+            margin: 10px;
+            border: 1px solid white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box-1 img {
+            height: 40rem;
+        }
+
+        .box-2 p {
+            color: white;
+            font-size: 5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-1">
+            <img src="matter/image/x.jpeg" alt="Image">
+        </div>
+        <div class="box-2">
+            <p>Happening now</p>
+            <p>Join today.</p>
+            <div class="buttons">
+                <button>Button 1</button>
+                <button>Button 2</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
